@@ -8,9 +8,9 @@ public class Digits
 	public Digits(int num)
 	{ /* to be implemented in part (a) */ 
 	    digitList = new ArrayList<Integer>(); 
-	    int i = num; 
-	    if (i == 0)
+	   if (num == 0)
 	      digitList.add(0); 
+	    int i = num; 
 	    while (i > 0){
 		digitList.add(0, i % 10); 
 		i = i/10; 
