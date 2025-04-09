@@ -23,6 +23,7 @@ public class Digits
 	  if (digitList.get(i+1) <= digitList.get(i)){
 	    return false; 
 	  }
+	}
 	return true; 
 
 	}
